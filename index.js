@@ -7,6 +7,6 @@ function upperCaseCustomerName() {
 }
 
 function setBestCustomer() {
-  bestCustomer = `not ${customerName}`;
+  bestCustomer = `not ${customerName.toLowerCase()}`;
   return bestCustomer;
 }
