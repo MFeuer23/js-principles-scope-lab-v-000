@@ -6,3 +6,7 @@ function upperCaseCustomerName() {
   return customerName;
 }
 
+function setBestCustomer() {
+  let bestCustomer = `not ${customerName}`;
+  return bestCustomer;
+}
