@@ -12,6 +12,6 @@ function setBestCustomer() {
 }
 
 function overwriteBestCustomer() {
-  bestCustomer = customerName;
+  bestCustomer = `maybe ${customerName.toLowerCase()}`;
   return bestCustomer;
 }
