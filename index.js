@@ -15,3 +15,9 @@ function overwriteBestCustomer() {
   bestCustomer = `maybe ${customerName.toLowerCase()}`;
   return bestCustomer;
 }
+
+const leastFavoriteCustomer = "bob"
+
+function changeLeastFavoriteCustomer() {
+  
+}
